@@ -28,6 +28,9 @@ const config: Config = {
           'blossom': '#E3AFBC',
           'berry': '#9A1750',
           'pink': '#EE4C7C',
+          'blue': '#2B86FF',
+          'dark-blue': '#16215c',
+          'purpel': '#8C47C5'
         },
     },
   },

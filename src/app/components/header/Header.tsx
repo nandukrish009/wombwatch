@@ -9,7 +9,7 @@ function Header() {
         <div className='flex justify-between items-center py-6 w-full'>
             <div className='w-2/5'>
                 <Link href='/'>
-                <Image src='/logo.png' width={80} height={80} alt='wombwatch logo'/>
+                <Image src='/logo.jpg' width={100} height={100} alt='wombwatch logo'/>
                 </Link>
             </div>
             <div className='flex items-center justify-between'>
@@ -20,8 +20,8 @@ function Header() {
                 <Link href={''}>About</Link>
                 </div>
                 <div className='flex gap-11 items-center'>
-                <Link href='/login' className='pl-6 font-semibold text-maroon hover:text-berry'>Login</Link>
-                <Link href='/signup' className='flex gap-2 items-center px-6 py-3 border rounded-full text-white border-berry bg-berry hover:bg-transparent hover:text-berry'>Sign up  <span><MoveRight className="" style={{strokeWidth : '1.3px'}}/></span></Link>
+                <Link href='/login' className='pl-6 font-semibold text-dark-blue hover:text-blue'>Login</Link>
+                <Link href='/signup' className='flex gap-2 items-center px-6 py-3 border rounded-full hover:border-blue bg-blue text-white hover:bg-transparent hover:text-blue'>Sign up  <span><MoveRight className="" style={{strokeWidth : '1.3px'}}/></span></Link>
             </div>
             </div>
             
