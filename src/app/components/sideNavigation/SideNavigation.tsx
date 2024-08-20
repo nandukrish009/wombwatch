@@ -8,7 +8,7 @@ function SideNavigation() {
 <div className="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-gray-50 text-gray-800">
   <div className="fixed flex flex-col top-0 left-0 w-64 bg-white h-full border-r">
     <div className="flex items-center h-14 border-b px-5 gap-4">
-        <Image src='/logo.jpg' alt='logo' width={50} height={50} className='' />
+        <Image src='/wombwatch.jpg' alt='logo' width={50} height={50} className='' />
       <p className='text-dark-blue font-semibold text-[18px]'>WombWatch</p>
     </div>
     <div className="overflow-y-auto overflow-x-hidden flex-grow">

@@ -9,7 +9,7 @@ function Header() {
         <div className='flex justify-between items-center py-6 w-full'>
             <div className='w-2/5'>
                 <Link href='/'>
-                <Image src='/logo.jpg' width={100} height={100} alt='wombwatch logo'/>
+                <Image src='/wombwatch.jpg' width={100} height={100} alt='wombwatch logo'/>
                 </Link>
             </div>
             <div className='flex items-center justify-between'>
