@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} ${poppins.variable} overflow-x-hidden`}>
+      <body className={`${montserrat.variable} ${poppins.variable} overflow-x-hidden bg-white`}>
         <div className="">
         {/* <Header/> */}
         {children}

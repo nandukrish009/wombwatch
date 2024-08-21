@@ -57,11 +57,7 @@ function LoginPage() {
           setOtpError('Invalid otp')
         }
       }
-
-      console.log('otp', otp)
-      
-
-      
+    
 
   return (
     <>

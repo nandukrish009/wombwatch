@@ -5,8 +5,8 @@ function SideNavigation() {
   return (
     <div>
        
-<div className="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-gray-50 text-gray-800">
-  <div className="fixed flex flex-col top-0 left-0 w-64 bg-white h-full border-r">
+<div className="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-gray-50 text-gray-800 w-64">
+  <div className="fixed flex flex-col top-0 left-0 bg-white h-full border-r w-64">
     <div className="flex items-center h-14 border-b px-5 gap-4">
         <Image src='/wombwatch.jpg' alt='logo' width={50} height={50} className='' />
       <p className='text-dark-blue font-semibold text-[18px]'>WombWatch</p>
@@ -49,7 +49,7 @@ function SideNavigation() {
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
             </span>
             <span className="ml-2 text-sm tracking-wide truncate">Notifications</span>
-            <span className="px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-red-500 bg-red-50 rounded-full">1.2k</span>
+            <span className="px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-red-500 bg-red-50 rounded-full">18</span>
           </a>
         </li>
         <li className="px-5">
