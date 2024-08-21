@@ -1,15 +1,36 @@
 "use client"
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
 import { useForm, SubmitHandler } from "react-hook-form"
 import Image from 'next/image'
 import Header from '../components/header/Header'
+import { Dialog, DialogActions, DialogContent, DialogTitle, DialogContentText } from '@mui/material'
+import OTP from '../components/otp/OTP'
+import { useRouter } from 'next/navigation'
 
 type Inputs = {
     userName: string
     password: string
   }
+
+  type OtpInput = {
+    otp: number
+  }
 function LoginPage() {
+
+      const router = useRouter()
+
+      const [open, setOpen] = useState(false);
+      const [otp, setOtp] = useState('');
+      const [otpError, setOtpError] = useState('')
+
+      const handleClickOpen = () => {
+        setOpen(true);
+      };
+
+      const handleClose = () => {
+        setOpen(false);
+      };
 
     const {
         register,
@@ -17,7 +38,30 @@ function LoginPage() {
         watch,
         formState: { errors },
       } = useForm<Inputs>()
-      const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data)
+
+      const onSubmit: SubmitHandler<Inputs> = (data) => {
+        console.log(data)
+        if(data.userName != '' && data.password != ''){
+          setOpen(true);
+        }
+      }
+
+      const handelOtp = () => {
+        console.log('oyyy',otp)
+        if(otp == '123456'){
+          router.push('/dashboard')
+        }
+        else if(otp === ''){
+          setOtpError('Enter 6 digits otp')
+        }else{
+          setOtpError('Invalid otp')
+        }
+      }
+
+      console.log('otp', otp)
+      
+
+      
 
   return (
     <>
@@ -52,6 +96,25 @@ function LoginPage() {
     </form>
     </div>
     </div>
+    <Dialog
+        open={open}
+        onClose={handleClose}
+        className='rounded-lg'
+      >
+        <DialogTitle className='pt-6 px-8 text-[22px] font-montserrat text-dark-blue font-bold text-center capitalize'>Two factor Authentication</DialogTitle>
+        <DialogContent>
+          <DialogContentText className='text-[16px] text-gray-600 leading-6 px-8'>
+          Enter the 6-digit code sent to your mobile number.
+          </DialogContentText>
+          <div className='flex justify-center flex-col items-center w-full px-8 py-6'>
+          <OTP separator={<span>-</span>} value={otp} onChange={setOtp} length={6} />
+          <p className='text-center text-[12px] text-red-500 py-2'>{otpError}</p>
+          <div className='pt-9'>
+          <button onClick={handelOtp} className='bg-blue text-white rounded-lg py-3 px-9 font-medium'>Verify</button>
+          </div>
+          </div>
+        </DialogContent>
+      </Dialog>
     </div>
     </>
     
