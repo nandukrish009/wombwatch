@@ -1,0 +1,283 @@
+[
+    {
+        "question": "What is the primary function of the website?",
+        "questionId": "primary_function_website",
+        "type": "single-choice",
+        "stepperName": "step one",
+        "options": [
+            {
+                "option": "To sell our products (eCommerce)",
+                "optionId": "to_sell_ecommerce"
+               
+            },
+            {
+                "option": "To sell our services",
+                "optionId": "to_sell_our_services"
+                
+            },
+            {
+                "option": "To improve our company and brand image",
+                "optionId": "to_improve_our_company_brand"
+               
+            },
+            {
+                "option": "To provide customer support",
+                "optionId": "to_provide_customer_support"
+            },
+            {
+                "option": "Help customers choose products and services",
+                "optionId": "help_customer_choose_products"
+            },
+            {
+                "option": "Provide information to our stake holders",
+                "optionId": "provide_info_stack_holder"
+            }
+        ]
+    },
+    {
+        "question": "What is the primary function of the website?",
+        "questionId": "primary_function_website",
+        "type": "single-choice",
+        "stepperName": "step one",
+        "options": [
+            {
+                "option": "To sell our products (eCommerce)",
+                "optionId": "to_sell_ecommerce"
+               
+            },
+            {
+                "option": "To sell our services",
+                "optionId": "to_sell_our_services"
+                
+            },
+            {
+                "option": "To improve our company and brand image",
+                "optionId": "to_improve_our_company_brand"
+               
+            },
+            {
+                "option": "To provide customer support",
+                "optionId": "to_provide_customer_support"
+            },
+            {
+                "option": "Help customers choose products and services",
+                "optionId": "help_customer_choose_products"
+            },
+            {
+                "option": "Provide information to our stake holders",
+                "optionId": "provide_info_stack_holder"
+            }
+        ]
+    },
+    {
+        "question": "What is the primary function of the website?",
+        "questionId": "primary_function_website",
+        "type": "single-choice",
+        "stepperName": "step one",
+        "options": [
+            {
+                "option": "To sell our products (eCommerce)",
+                "optionId": "to_sell_ecommerce"
+               
+            },
+            {
+                "option": "To sell our services",
+                "optionId": "to_sell_our_services"
+                
+            },
+            {
+                "option": "To improve our company and brand image",
+                "optionId": "to_improve_our_company_brand"
+               
+            },
+            {
+                "option": "To provide customer support",
+                "optionId": "to_provide_customer_support"
+            },
+            {
+                "option": "Help customers choose products and services",
+                "optionId": "help_customer_choose_products"
+            },
+            {
+                "option": "Provide information to our stake holders",
+                "optionId": "provide_info_stack_holder"
+            }
+        ]
+    },
+    {
+        "question": "What is the primary function of the website?",
+        "questionId": "primary_function_website",
+        "type": "single-choice",
+        "stepperName": "step one",
+        "options": [
+            {
+                "option": "To sell our products (eCommerce)",
+                "optionId": "to_sell_ecommerce"
+               
+            },
+            {
+                "option": "To sell our services",
+                "optionId": "to_sell_our_services"
+                
+            },
+            {
+                "option": "To improve our company and brand image",
+                "optionId": "to_improve_our_company_brand"
+               
+            },
+            {
+                "option": "To provide customer support",
+                "optionId": "to_provide_customer_support"
+            },
+            {
+                "option": "Help customers choose products and services",
+                "optionId": "help_customer_choose_products"
+            },
+            {
+                "option": "Provide information to our stake holders",
+                "optionId": "provide_info_stack_holder"
+            }
+        ]
+    },
+    {
+        "question": "What is the primary function of the website?",
+        "questionId": "primary_function_website",
+        "type": "single-choice",
+        "stepperName": "step two",
+        "options": [
+            {
+                "option": "To sell our products (eCommerce)",
+                "optionId": "to_sell_ecommerce"
+               
+            },
+            {
+                "option": "To sell our services",
+                "optionId": "to_sell_our_services"
+                
+            },
+            {
+                "option": "To improve our company and brand image",
+                "optionId": "to_improve_our_company_brand"
+               
+            },
+            {
+                "option": "To provide customer support",
+                "optionId": "to_provide_customer_support"
+            },
+            {
+                "option": "Help customers choose products and services",
+                "optionId": "help_customer_choose_products"
+            },
+            {
+                "option": "Provide information to our stake holders",
+                "optionId": "provide_info_stack_holder"
+            }
+        ]
+    },
+    {
+        "question": "What is the primary function of the website?",
+        "questionId": "primary_function_website",
+        "type": "single-choice",
+        "stepperName": "step three",
+        "options": [
+            {
+                "option": "To sell our products (eCommerce)",
+                "optionId": "to_sell_ecommerce"
+               
+            },
+            {
+                "option": "To sell our services",
+                "optionId": "to_sell_our_services"
+                
+            },
+            {
+                "option": "To improve our company and brand image",
+                "optionId": "to_improve_our_company_brand"
+               
+            },
+            {
+                "option": "To provide customer support",
+                "optionId": "to_provide_customer_support"
+            },
+            {
+                "option": "Help customers choose products and services",
+                "optionId": "help_customer_choose_products"
+            },
+            {
+                "option": "Provide information to our stake holders",
+                "optionId": "provide_info_stack_holder"
+            }
+        ]
+    },
+    {
+        "question": "What is the primary function of the website?",
+        "questionId": "primary_function_website",
+        "type": "single-choice",
+        "stepperName": "step three",
+        "options": [
+            {
+                "option": "To sell our products (eCommerce)",
+                "optionId": "to_sell_ecommerce"
+               
+            },
+            {
+                "option": "To sell our services",
+                "optionId": "to_sell_our_services"
+                
+            },
+            {
+                "option": "To improve our company and brand image",
+                "optionId": "to_improve_our_company_brand"
+               
+            },
+            {
+                "option": "To provide customer support",
+                "optionId": "to_provide_customer_support"
+            },
+            {
+                "option": "Help customers choose products and services",
+                "optionId": "help_customer_choose_products"
+            },
+            {
+                "option": "Provide information to our stake holders",
+                "optionId": "provide_info_stack_holder"
+            }
+        ]
+    },
+    {
+        "question": "What is the primary function of the website?",
+        "questionId": "primary_function_website",
+        "type": "single-choice",
+        "stepperName": "step three",
+        "options": [
+            {
+                "option": "To sell our products (eCommerce)",
+                "optionId": "to_sell_ecommerce"
+               
+            },
+            {
+                "option": "To sell our services",
+                "optionId": "to_sell_our_services"
+                
+            },
+            {
+                "option": "To improve our company and brand image",
+                "optionId": "to_improve_our_company_brand"
+               
+            },
+            {
+                "option": "To provide customer support",
+                "optionId": "to_provide_customer_support"
+            },
+            {
+                "option": "Help customers choose products and services",
+                "optionId": "help_customer_choose_products"
+            },
+            {
+                "option": "Provide information to our stake holders",
+                "optionId": "provide_info_stack_holder"
+            }
+        ]
+    }
+   
+]

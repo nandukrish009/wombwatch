@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState, useContext } from "react";
 import SideNavigation from "../components/sideNavigation/SideNavigation";
+import ApplicationHeader from "../components/applicationHeader/ApplicationHeader";
 
 function ResponsiveLayout({
     children,
@@ -11,7 +12,11 @@ function ResponsiveLayout({
   }) {
     return(
     <>
-    <div className="flex relative justify-between">
+    <div>
+        <ApplicationHeader/>
+      </div>
+    <div className="flex relative justify-between top-[64px]">
+      
         <div className="">
             <SideNavigation/>
         </div>
