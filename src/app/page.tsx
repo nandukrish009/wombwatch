@@ -11,7 +11,7 @@ import Header from "./components/header/Header";
 
 export default function Home() {
   return (
-   <>
+   <div className="relative">
    <Header/>
    <Banner/>
    <HomeThreeCol/>
@@ -20,7 +20,6 @@ export default function Home() {
    <WhatUserSays/>
    <HealthTips/>
    <Footer/>
-   {/* <CardsSection/> */}
-   </>
+   </div>
   );
 }
