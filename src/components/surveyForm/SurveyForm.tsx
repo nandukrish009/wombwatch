@@ -31,6 +31,7 @@ const SurveyForm: React.FC = () => {
   const [currentStep, setCurrentStep] = useState(1);
   const scrollableRef = useRef<HTMLDivElement>(null);
 
+
   const handleNext = () => {
     setCurrentStep((prevStep) => prevStep + 1);
     if (scrollableRef.current) {
@@ -98,7 +99,7 @@ const SurveyForm: React.FC = () => {
                           <input
                             
                             {...field}
-                            className='bg-transparent py-3 px-2 focus:ring-0 focus:outline-none text[14px] border rounded-lg border-slate-400'
+                            className='bg-transparent py-3 px-2 focus:ring-0 focus:outline-none text[14px] border rounded-sm border-slate-400'
                           />
                         )}
                       />
@@ -116,7 +117,16 @@ const SurveyForm: React.FC = () => {
                               control={control}
                               defaultValue={[]}
                               render={({ field }) => (
-                                <div className='border-slate-500 border rounded-lg py-3 px-4 flex items-center gap-2'>
+                                <div className={`border-slate-500 border rounded-sm py-3 px-4 flex items-center gap-2 cursor-pointer`} 
+                                // style={{backgroundColor : field.value.includes(option.optionId) ? '#E3E2DF' : '#ffffff'}}
+                                key={option.optionId}
+                                onClick={() => {
+                                  // Handle the click event
+                                  const newValue = field.value.includes(option.optionId)
+                                    ? field.value.filter((id: string) => id !== option.optionId)
+                                    : [...field.value, option.optionId];
+                                  field.onChange(newValue);
+                                }}>
                                   <input
                                     type="checkbox"
                                     className='w-4 h-4'
@@ -128,7 +138,7 @@ const SurveyForm: React.FC = () => {
                                       field.onChange(newValue);
                                     }}
                                   />
-                                  <label>{option.option}</label>
+                                  <label className='cursor-pointer'>{option.option}</label>
                                 </div>
                               )}
                             />
@@ -149,14 +159,19 @@ const SurveyForm: React.FC = () => {
                               control={control}
                               defaultValue=""
                               render={({ field }) => (
-                                <div className='border-slate-500 border rounded-lg py-3 px-4 flex items-center gap-2'>
+                                <div className='border-slate-500 border rounded-sm py-3 px-4 flex items-center gap-2 cursor-pointer'
+                                key={option.optionId}
+                                onClick={() => 
+                                  field.onChange(option.optionId)
+                                }
+                                >
                                   <input
                                     type="radio"
                                     className='w-4 h-4'
                                     checked={field.value === option.optionId}
                                     onChange={() => field.onChange(option.optionId)}
                                   />
-                                  <label>{option.option}</label>
+                                  <label className='cursor-pointer'>{option.option}</label>
                                 </div>
                               )}
                             />
@@ -176,7 +191,7 @@ const SurveyForm: React.FC = () => {
                         render={({ field }) => (
                           <select
                             {...field}
-                            className='py-3 px-5 border border-slate-500 rounded-lg'
+                            className='py-3 px-5 border border-slate-500 rounded-sm'
                           >
                             {question.options?.map((option) => (
                               <option key={option.optionId} value={option.optionId}>
