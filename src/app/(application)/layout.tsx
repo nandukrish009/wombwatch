@@ -1,7 +1,7 @@
 "use client";
+import ApplicationHeader from "@/components/applicationHeader/ApplicationHeader";
+import SideNavigation from "@/components/sideNavigation/SideNavigation";
 import React, { useEffect, useState, useContext } from "react";
-import SideNavigation from "../components/sideNavigation/SideNavigation";
-import ApplicationHeader from "../components/applicationHeader/ApplicationHeader";
 
 function ResponsiveLayout({
     children,

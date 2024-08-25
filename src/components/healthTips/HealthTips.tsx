@@ -16,8 +16,6 @@ function HealthTips() {
              <Swiper
              spaceBetween={60}
                 slidesPerView={2}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
                 autoplay={{
                     delay: 2000,
                     disableOnInteraction: false

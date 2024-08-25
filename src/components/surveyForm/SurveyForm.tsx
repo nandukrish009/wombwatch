@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useRef, useEffect } from 'react';
 import { useForm, Controller, SubmitHandler } from 'react-hook-form';
-import { questions } from '../../../data/questions'; // Adjust the import path as necessary
+import { questions } from '../../data/questions'; // Adjust the import path as necessary
 
 // Define types for form data
 interface FormData {

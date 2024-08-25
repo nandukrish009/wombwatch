@@ -22,7 +22,7 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 body {
@@ -118,4 +118,8 @@ body {
 .custom-horizontal-scrollbar > div::-webkit-scrollbar-thumb:hover {
   background: var(--grey-3-clr);
   border-radius: 10px;
+}
+
+.backDropFilter{
+  backdrop-filter: blur(10px);
 }

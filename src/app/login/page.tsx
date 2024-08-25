@@ -3,10 +3,10 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { useForm, SubmitHandler } from "react-hook-form"
 import Image from 'next/image'
-import Header from '../components/header/Header'
+import Header from '@/components/header/Header'
 import { Dialog, DialogActions, DialogContent, DialogTitle, DialogContentText } from '@mui/material'
-import OTP from '../components/otp/OTP'
 import { useRouter } from 'next/navigation'
+import OTP from '@/components/otp/OTP'
 
 type Inputs = {
     userName: string
@@ -62,15 +62,15 @@ function LoginPage() {
   return (
     <>
       <Header/>
-      <div className='h-[calc(100vh_-_148px)] w-full'>
-      <div className='flex justify-center items-center gap-44'>
+      <div className='min-h-screen w-full relative flex flex-col justify-center' style={{backgroundImage: 'radial-gradient(farthest-corner at 40px 40px, #000 0%, #0e122a 100%)'}}>
+      <div className='flex justify-center items-center gap-44 relative top-11'>
         <div className='relative'>
         <Image src='/pattern-02.png' height={1000} width={1000} alt='' className='absolute'/>
         <Image src='/woman.png' alt='' width={450} height={450} className='relative z-10' />
         </div>
     <div className='w-[440px] h-auto p-8'>
-    <p className='text-center mb-6 text-2xl font-semibold'>Sign into WombWatch</p>
-    <p className='text-center my-6'>Welcome to WombWatch, Please enter your login details below.</p>
+    <p className='text-center mb-6 text-2xl font-semibold text-white'>Sign into WombWatch</p>
+    <p className='text-center my-6 text-white'>Welcome to WombWatch, Please enter your login details below.</p>
     <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col gap-6'>
       <div className='w-full flex flex-col gap-2'>
       {/* <p>Email</p> */}
@@ -83,11 +83,11 @@ function LoginPage() {
       {errors.password && <span className='text-[12px] text-red-600'>Password is required</span>}
       </div>
       <div className='w-full flex justify-end'>
-      <Link href={''} className='capitalize underline underline-offset-4'>forgot password?</Link>
+      <Link href={''} className='capitalize underline underline-offset-4 text-white'>forgot password?</Link>
       </div>
-      <button type="submit" className='px-6 py-3 border rounded-lg text-white border-blue bg-blue hover:bg-transparent hover:text-dark-blue text-[14px] font-medium'>Login</button>
+      <button type="submit" className='px-6 py-3 border rounded-lg text-white border-blue bg-blue hover:bg-transparent hover:text-blue text-[14px] font-medium'>Login</button>
       <div className='w-full text-center'>
-        <p className='text-slate-500 font-medium'>No account yet? <Link href='/signup' className='font-semibold text-dark-blue underline underline-offset-4'>Register</Link></p>
+        <p className='text-slate-500 font-medium'>No account yet? <Link href='/signup' className='font-semibold text-slate-400 underline underline-offset-4'>Register</Link></p>
       </div>
     </form>
     </div>
