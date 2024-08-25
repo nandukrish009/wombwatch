@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { montserrat, poppins } from "./fonts";
 import "./globals.css";
-import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
+
 
 
 export const metadata: Metadata = {
