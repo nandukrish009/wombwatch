@@ -9,7 +9,7 @@ const ApplicationHeader = () => {
       {/* Left side: Logo */}
       <div className="flex items-center">
         <Image
-          src="/logo.png" 
+          src="/wombwatch_crop.JPG" 
           alt="Logo"
           className="h-8 w-auto"
           width={32}
