@@ -6,7 +6,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Quote } from 'lucide-react';
-import userImage from "../../../../public/user-say.png"
+// import userImage from "../../../../public/user-say.png"
+import userImage from '../../../public/user-say.png'
 import Image from 'next/image';
 
 const userSayImage = {
@@ -28,8 +29,6 @@ function WhatUserSays() {
             <Swiper
                 slidesPerView={1}
                 centeredSlides={true}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
                 autoplay={{
                     delay: 2000,
                     disableOnInteraction: false

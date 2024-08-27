@@ -7,12 +7,8 @@ function SideNavigation() {
   return (
     <div>
        
-<div className="h-[calc(100vh_-_64px)] flex flex-col flex-auto flex-shrink-0 antialiased bg-gray-50 text-gray-800 w-64">
-  <div className="fixed flex flex-col top-0 left-0 bg-white border-r w-64 h-[calc(100vh_-_64px)]">
-    <div className="flex items-center h-14 border-b px-5 gap-4">
-        <Image src='/wombwatch.jpg' alt='logo' width={50} height={50} className='' />
-      <p className='text-dark-blue font-semibold text-[18px]'>WombWatch</p>
-    </div>
+<div className="flex flex-col flex-auto flex-shrink-0 antialiased bg-gray-50 text-gray-800 w-64 relative">
+  <div className="fixed flex flex-col top-[65px] left-0 bg-white border-r w-64 h-[calc(100vh_-_65px)]">
     <div className="overflow-y-auto overflow-x-hidden flex-grow">
       <ul className="flex flex-col py-4 space-y-1">
         <li className="px-5">

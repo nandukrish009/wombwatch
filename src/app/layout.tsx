@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { montserrat, poppins } from "./fonts";
 import "./globals.css";
-import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
+
 
 
 export const metadata: Metadata = {
@@ -17,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${montserrat.variable} ${poppins.variable} overflow-x-hidden bg-white`}>
+      <body className={`${montserrat.variable} ${poppins.variable} transaprentscroll overflow-y-scroll overflow-x-hidden bg-white`}>
         <div className="">
         {/* <Header/> */}
         {children}

@@ -1,7 +1,7 @@
 "use client";
+import ApplicationHeader from "@/components/applicationHeader/ApplicationHeader";
+import SideNavigation from "@/components/sideNavigation/SideNavigation";
 import React, { useEffect, useState, useContext } from "react";
-import SideNavigation from "../components/sideNavigation/SideNavigation";
-import ApplicationHeader from "../components/applicationHeader/ApplicationHeader";
 
 function ResponsiveLayout({
     children,
@@ -15,13 +15,13 @@ function ResponsiveLayout({
     <div>
         <ApplicationHeader/>
       </div>
-    <div className="flex relative justify-between top-[64px]">
+    <div className="flex relative top-[65px] justify-between">
       
         <div className="">
             <SideNavigation/>
         </div>
-        <div className="w-full pt-9 px-6">
-            {children}
+        <div className="transparentscroll overflow-auto mx-6 h-[calc(100vh_-_65px)] flex flex-col w-full relative">
+        {children}
         </div>
     </div>
     </>
