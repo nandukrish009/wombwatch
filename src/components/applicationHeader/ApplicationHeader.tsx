@@ -1,5 +1,6 @@
 import React from 'react';
 import { User } from 'lucide-react';
+import Image from 'next/image';
 
 const ApplicationHeader = () => {
   return (
@@ -7,10 +8,12 @@ const ApplicationHeader = () => {
     <div className="w-full flex items-center justify-between p-4 bg-[#ffffff] shadow-md text-white px-5">
       {/* Left side: Logo */}
       <div className="flex items-center">
-        <img
+        <Image
           src="/logo.png" 
           alt="Logo"
           className="h-8 w-auto"
+          width={32}
+          height={32}
         />
       </div>
 
