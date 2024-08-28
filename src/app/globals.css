@@ -123,3 +123,21 @@ body {
 .backDropFilter{
   backdrop-filter: blur(10px);
 }
+.chevronAfter:after{
+  content:'>';
+    position: absolute;
+    color: #ffffff;
+    font-size: 12px;
+    background-color: #000000;
+    border-radius: 50%;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    height: 12px;
+    width: 12px;
+    /* background-image: url('../path/chevron.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

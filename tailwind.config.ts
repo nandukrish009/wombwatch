@@ -7,6 +7,7 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    
     fontFamily: {
       montserrat: "var(--font-montserrat)",
       poppins: "var(--font-poppins)",
@@ -15,10 +16,10 @@ const config: Config = {
       center: true,
       padding: {
         DEFAULT: "1rem",
-        sm: "2rem",
-        lg: "4rem",
+        // sm: "1rem",
+        // lg: "1rem",
         xl: "5rem",
-        "2xl": "6rem",
+        // "2xl": "6rem",
       },
     },
     extend: {
