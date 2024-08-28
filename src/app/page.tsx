@@ -6,6 +6,8 @@ import Header from "@/components/header/Header";
 import HealthTips from "@/components/healthTips/HealthTips";
 import HomeThreeCol from "@/components/homeThreeCol/HomeThreeCol";
 import HomeTwoCol from "@/components/homeTwoCol/HomeTwoCol";
+import OurPartners from "@/components/ourPartners/OurPartners";
+import OurServices from "@/components/ourServices/OurServices";
 import WhatUserSays from "@/components/whatUserSays/WhatUserSays";
 
 
@@ -16,10 +18,13 @@ export default function Home() {
    <Header/>
    <Banner/>
    <HomeThreeCol/>
+   <OurServices/>
+   <OurPartners/>
+   {/* 
    <HomeTwoCol/>
    <Appointment/>
    <WhatUserSays/>
-   <HealthTips/>
+   <HealthTips/> */}
    <Footer/>
    </div>
   );
