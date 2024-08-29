@@ -30,7 +30,6 @@ function Signup({close, modalChange}:any) {
       const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data)
   return (
     <>
-       {/* <Header/>  */}
        <div className='w-full relative'>
         <X className='absolute top-5 right-5 cursor-pointer z-10' onClick={closeDialog}/>
         <div className='flex gap-10 max-md:justify-center relative'>
@@ -42,7 +41,7 @@ function Signup({close, modalChange}:any) {
         <div className='relative max-xl:h-[calc(100vh_-_70px)] overflow-auto transparentscroll'>
         <div className='mb-10'>
         <p className='text-dark-blue text-2xl font-semibold'>Create Account</p>
-        <p className='text-slate-400'>Welcome to Womb Watch AI - Let's create your account</p>
+        <p className='text-slate-400'>Welcome to Womb Watch AI - Let&#39;s create your account</p>
         </div>
         <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col gap-6'>
         

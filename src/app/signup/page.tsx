@@ -34,7 +34,7 @@ function SignupPage() {
     <div className='w-[550px] h-auto p-8'>
       <div className='mb-20'>
       <p className='text-dark-blue text-2xl font-semibold'>Create Account</p>
-      <p className='text-slate-400'>Welcome to Womb Watch AI - Let's create your account</p>
+      <p className='text-slate-400'>Welcome to Womb Watch AI - Let&#39;s create your account</p>
       </div>
     <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col gap-6'>
       
