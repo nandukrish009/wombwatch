@@ -62,9 +62,9 @@ function LoginPage() {
   return (
     <>
       <Header/>
-      <div className='min-h-screen w-full relative flex flex-col justify-center' style={{backgroundImage: 'radial-gradient(farthest-corner at 40px 40px, #000 0%, #0e122a 100%)'}}>
+      <div className='min-h-screen w-full relative flex flex-col justify-center' style={{backgroundImage: 'radial-gradient(farthest-corner at 40px 40px, #151438  0%, rgb(30, 7, 34) 100%)'}}>
       <div className='flex justify-center items-center gap-44 relative top-11'>
-        <div className='relative'>
+        <div className='relative max-lg:hidden'>
         <Image src='/pattern-02.png' height={1000} width={1000} alt='' className='absolute'/>
         <Image src='/woman.png' alt='' width={450} height={450} className='relative z-10' />
         </div>

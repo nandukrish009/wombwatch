@@ -8,6 +8,7 @@ import HomeThreeCol from "@/components/homeThreeCol/HomeThreeCol";
 import HomeTwoCol from "@/components/homeTwoCol/HomeTwoCol";
 import OurPartners from "@/components/ourPartners/OurPartners";
 import OurServices from "@/components/ourServices/OurServices";
+import Team from "@/components/team/Team";
 import WhatUserSays from "@/components/whatUserSays/WhatUserSays";
 
 
@@ -19,6 +20,7 @@ export default function Home() {
    <Banner/>
    <HomeThreeCol/>
    <OurServices/>
+   <Team/>
    <OurPartners/>
    {/* 
    <HomeTwoCol/>
