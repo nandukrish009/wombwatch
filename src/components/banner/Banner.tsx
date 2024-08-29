@@ -13,7 +13,7 @@ function Banner() {
       <button className='px-6 py-3 border border-blue rounded-lg hover:border-blue bg-transparent text-white hover:bg-transparent hover:text-blue capitalize'>Get started</button>
       </div>
       <div className='w-1/2 max-lg:hidden'>
-        <p className='text-[10vw] uppercase leading-none font-bold opacity-5'>womb watch ai</p>
+        {/* <p className='text-[10vw] uppercase leading-none font-bold opacity-5'>womb watch ai</p> */}
         {/* <p className='text-[180px] uppercase leading-none font-bold opacity-10'>watch ai</p> */}
         {/* <p className='text-[180px] uppercase leading-none'>ai</p> */}
       {/* <Image src='/banner_pregancy.png' width={1000} height={1000} alt='wombwatch logo'  /> */}
